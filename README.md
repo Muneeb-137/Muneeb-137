@@ -88,7 +88,6 @@ A machine learning pipeline that transforms raw vehicle telemetry into overheati
 
 ---
 
-
 ## Skills
 
 **Languages**  
@@ -102,17 +101,6 @@ React, React Native, Node.js, Express.js, Tailwind CSS, Vite, OpenCV, VTK
 
 **Tools & Technologies**  
 Git, GitHub, Docker, PostgreSQL, MySQL, Google Cloud Platform, Plus Toolkit, 3D Slicer, VS Code, Linux, REST APIs
-
----
-
-## What I Am Focused On
-
-I am currently focused on building portfolio projects in:
-
-- Computer vision systems for real-world monitoring and automation
-- Medical imaging and 3D visualization
-- Full-stack applications with AI features
-- Machine learning pipelines for structured and time-series data
 
 ---
 
