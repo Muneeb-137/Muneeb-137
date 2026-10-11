@@ -122,30 +122,6 @@ A machine learning pipeline that transforms raw vehicle telemetry into overheati
 ---
 
 
-### 🎓 Western University Chatbot — Student Support Assistant
-
-A full-stack chatbot designed to help Western University students find information about academic services, OSAP, registration, graduation, and counselling workflows.
-
-**What it does**
-- Provides student-support answers through a chatbot interface.
-- Routes users through multiple university-service workflows.
-- Organizes FAQ information into reusable modules.
-- Supports future NLP expansion.
-
-**Key achievements**
-- Built a full-stack chatbot using Next.js, React, TypeScript, Tailwind CSS, Node.js, and Python.
-- Implemented conversational routing for multiple student-service workflows.
-- Created reusable frontend components for chatbot, FAQ, help, and service pages.
-- Improved maintainability by organizing academic topics into reusable response modules.
-
-**Tech stack**  
-Next.js, React, TypeScript, Tailwind CSS, Node.js, Python, NLP Systems
-
-**Project in one sentence:**  
-A full-stack student support chatbot that helps students navigate university services through structured conversational workflows.
-
----
-
 ## Skills
 
 **Languages**  
