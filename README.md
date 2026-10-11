@@ -32,7 +32,7 @@ A capstone project focused on building a 3D ultrasound reconstruction workflow f
 - Implemented calibration workflows using OpenCV and ArUco markers.
 - Improved reconstruction reliability through intrinsic, pivot, and hand-eye calibration.
 - Validated reconstructed `.mha` volumes in 3D Slicer.
-- Placed **Top 6 out of 36+ teams** at the Western Engineering Design Showcase.
+- Placed **Top 5 out of 36+ teams** at the Western Engineering Design Showcase.
 
 **Tech stack**  
 Python, OpenCV, ArUco, Plus Toolkit, VTK, 3D Slicer, PySide6, NDI Aurora
