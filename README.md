@@ -1,16 +1,16 @@
 # Hi, I'm Muneeb Asif 👋
 
 **Software Engineering new grad from Western University**  
-Full-stack • Machine Learning • Computer Vision • Robotics • Cloud
+Full-stack • Machine Learning • Computer Vision • Cloud
 
-I build practical software systems that connect AI, real-world data, and user-focused applications. My work includes computer vision for medical imaging, intelligent surveillance, machine learning pipelines for telemetry analysis, reinforcement learning for robotic manipulation, and full-stack/mobile applications.
+I build practical software systems that connect AI, real-world data, and user-focused applications. My work includes computer vision for medical imaging, intelligent surveillance, machine learning pipelines for telemetry analysis, and full-stack/mobile applications.
 
 ---
 
 ## Project Summary
 
 **One sentence:**  
-I build real-world AI and software engineering projects that combine computer vision, machine learning, robotics, and full-stack development to solve practical problems in healthcare, automation, and intelligent systems.
+I build real-world AI and software engineering projects that combine computer vision, machine learning, and full-stack development to solve practical problems in healthcare, automation, and intelligent systems.
 
 ---
 
@@ -42,24 +42,51 @@ An image-guided surgery system that turns tracked 2D ultrasound scans into accur
 
 ---
 
-### 💎 Jewelry Surveillance AI — Real-Time Retail Security Vision System
+### 🏥 ClinicFlow — Real-Time Clinic Operations & Patient Flow Management
 
-A computer vision security prototype designed for jewelry stores. The system detects people, face coverings, movement near display cases, and suspicious behavior patterns using zone-based monitoring and risk scoring.
+A full-stack healthcare management platform that streamlines appointment scheduling, patient queues, physician availability, and clinic operations. The system features a dynamic wait-time prediction engine that uses live clinic conditions to estimate patient waiting times.
 
 **What it does**
-- Detects people in real time using YOLO.
-- Classifies face covering status such as masked, unmasked, or covered.
-- Monitors high-value display-case zones.
-- Detects suspicious motion near cases or entrances.
-- Produces risk scores instead of flagging normal movement as suspicious.
+- Manages scheduled and walk-in appointments through dedicated staff, doctor, and patient portals.
+- Tracks patient progression from check-in to consultation completion.
+- Estimates patient waiting times using queue conditions, consultation durations, and physician availability.
+- Manages physician schedules, appointment availability, and examination room assignments.
+- Synchronizes clinic operations in real time using Socket.IO.
+- Provides operational dashboards and waiting-time analytics.
 
 **Key achievements**
-- Built a real-time OpenCV and YOLO-based surveillance pipeline.
-- Trained a face-covering classifier using TensorFlow/Keras.
-- Created zone-based motion logic for display cases and entrance areas.
-- Designed suspicious-motion scoring that considers speed, direction, and region of interest.
-- Reduced false alerts by separating normal movement from abnormal behavior.
-- Built the project around practical real-world retail security use cases.
+- Built a full-stack clinic management platform using React, TypeScript, Express, and PostgreSQL.
+- Developed a modular, provider-aware wait-time prediction engine incorporating queue progression, consultation durations, and physician readiness.
+- Implemented real-time updates using Socket.IO for appointment, queue, and provider status changes.
+- Created a multi-step appointment booking system with temporary reservation holds and availability validation.
+- Designed role-based portals for clinic staff, physicians, and patients.
+- Developed RESTful APIs and relational database structures to support scheduling, patient management, and clinic operations.
+
+**Tech stack**  
+React 19, TypeScript, Node.js, Express 5, PostgreSQL, Socket.IO, Tailwind CSS, Vite
+
+**Project in one sentence:**  
+A real-time full-stack clinic management system that combines appointment scheduling, live patient queues, and dynamic wait-time predictions to improve clinic efficiency and patient experience.
+
+---
+
+### 💎 Jewelry Surveillance AI — Real-Time Retail Security Vision System
+
+A real-time computer vision surveillance system designed for jewelry store security. The project combines YOLOv8 object detection with a custom deep learning model to detect individuals and classify face-covering status in live video streams.
+
+**What it does**
+- Uses YOLOv8 to detect individuals in live surveillance footage.
+- Uses a custom-trained TensorFlow/Keras model to classify faces as masked, unmasked, or covered.
+- Processes live camera feeds using OpenCV for real-time video analysis.
+- Integrates person detection and face-covering classification into a unified computer vision surveillance system.
+
+
+**Key achievements**
+- Developed a real-time computer vision surveillance pipeline using Python, OpenCV, and YOLOv8.
+- Trained a custom face-covering classification model using TensorFlow/Keras.
+- Integrated object detection and deep learning-based classification for real-time video analysis.
+- Implemented frame-by-frame video processing to support continuous surveillance.
+- Designed a modular computer vision architecture for retail security applications.
 
 **Tech stack**  
 Python, OpenCV, YOLOv8, TensorFlow/Keras, NumPy, Computer Vision
@@ -94,31 +121,6 @@ A machine learning pipeline that transforms raw vehicle telemetry into overheati
 
 ---
 
-### 🤖 Reinforcement Learning Robotic Arm — SAC + HER in PyBullet
-
-A reinforcement learning project where a robotic arm learns reaching, grasping, and object placement behavior in simulation. The project uses continuous-control reinforcement learning with SAC and SAC + Hindsight Experience Replay.
-
-**What it does**
-- Simulates a robotic arm in PyBullet.
-- Defines a continuous-control manipulation environment.
-- Trains agents to complete reaching and object-placement tasks.
-- Uses reward shaping and HER to improve learning from sparse rewards.
-
-**Key achievements**
-- Designed a custom robotic manipulation environment using Python and PyBullet.
-- Implemented Soft Actor-Critic training for continuous control.
-- Added SAC + Hindsight Experience Replay to improve sparse-reward learning.
-- Improved task success rate compared to the base agent.
-- Built training analysis workflows to monitor reward, stability, and convergence.
-- Structured the project so it can support both simulation and future real-arm deployment.
-
-**Tech stack**  
-Python, PyBullet, Gymnasium, Stable-Baselines3, PyTorch, NumPy, Reinforcement Learning
-
-**Project in one sentence:**  
-A reinforcement learning robotic arm simulation where an agent learns reaching, grasping, and placement tasks using SAC and Hindsight Experience Replay.
-
----
 
 ### 🎓 Western University Chatbot — Student Support Assistant
 
@@ -144,44 +146,19 @@ A full-stack student support chatbot that helps students navigate university ser
 
 ---
 
-### 🩺 HealthCare Camp Mobile App — Patient Data Collection System
-
-A mobile application for patient registration and healthcare camp data collection. The app digitizes intake workflows and improves how patient records are collected, stored, and accessed.
-
-**What it does**
-- Allows patients to be registered digitally.
-- Collects questionnaire and health intake information.
-- Stores structured patient records.
-- Helps healthcare staff access patient data more efficiently.
-
-**Key achievements**
-- Developed a mobile app using React Native, Node.js, and SQL.
-- Digitized manual healthcare camp registration workflows.
-- Reduced manual data-entry errors through structured forms.
-- Improved processing efficiency for healthcare staff.
-- Designed a clean user interface for fast field use.
-
-**Tech stack**  
-React Native, Node.js, SQL, JavaScript/TypeScript, Mobile Development
-
-**Project in one sentence:**  
-A mobile healthcare intake application that digitizes patient registration and makes camp data collection faster, cleaner, and more reliable.
-
----
-
 ## Skills
 
 **Languages**  
-Python, JavaScript, TypeScript, Java, C/C++, SQL, HTML, CSS
+Python, JavaScript, TypeScript, C/C++, SQL, HTML, CSS
 
 **Machine Learning & AI**  
 PyTorch, TensorFlow, Scikit-learn, NumPy, Pandas, Matplotlib, Reinforcement Learning, Computer Vision
 
 **Frameworks & Libraries**  
-React, React Native, Node.js, Express.js, Flask, PySide6, OpenCV, VTK, Gymnasium, Stable-Baselines3
+React, React Native, Node.js, Express.js, OpenCV, VTK
 
 **Tools & Technologies**  
-Git, GitHub, Docker, PostgreSQL, MySQL, Google Cloud Platform, PyBullet, Plus Toolkit, 3D Slicer, VS Code, Linux, REST APIs
+Git, GitHub, Docker, PostgreSQL, MySQL, Google Cloud Platform, Plus Toolkit, 3D Slicer, VS Code, Linux, REST APIs
 
 ---
 
@@ -190,7 +167,6 @@ Git, GitHub, Docker, PostgreSQL, MySQL, Google Cloud Platform, PyBullet, Plus To
 I am currently focused on building portfolio projects in:
 
 - Computer vision systems for real-world monitoring and automation
-- Reinforcement learning and robotics simulation
 - Medical imaging and 3D visualization
 - Full-stack applications with AI features
 - Machine learning pipelines for structured and time-series data
