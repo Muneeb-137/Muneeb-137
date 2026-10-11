@@ -7,13 +7,6 @@ I build practical software systems that connect AI, real-world data, and user-fo
 
 ---
 
-## Project Summary
-
-**One sentence:**  
-I build real-world AI and software engineering projects that combine computer vision, machine learning, and full-stack development to solve practical problems in healthcare, automation, and intelligent systems.
-
----
-
 ## Featured Projects
 
 ### 🏥 Ctrl-and-Incision — Image-Guided 3D Ultrasound Reconstruction System
