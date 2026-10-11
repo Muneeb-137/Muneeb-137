@@ -39,12 +39,10 @@ An image-guided surgery system that turns tracked 2D ultrasound scans into accur
 A full-stack healthcare management platform that streamlines appointment scheduling, patient queues, physician availability, and clinic operations. The system features a dynamic wait-time prediction engine that uses live clinic conditions to estimate patient waiting times.
 
 **What it does**
-- Manages scheduled and walk-in appointments through dedicated staff, doctor, and patient portals.
-- Tracks patient progression from check-in to consultation completion.
-- Estimates patient waiting times using queue conditions, consultation durations, and physician availability.
-- Manages physician schedules, appointment availability, and examination room assignments.
-- Synchronizes clinic operations in real time using Socket.IO.
-- Provides operational dashboards and waiting-time analytics.
+- Manages scheduled and walk-in appointments through dedicated staff, physician, and patient portals.
+- Tracks patient queues, physician availability, and examination room assignments in real time.
+- Predicts patient waiting times using queue conditions, consultation durations, and provider availability.
+- Synchronizes clinic operations using Socket.IO and provides operational dashboards and analytics.
 
 **Tech stack**  
 React 19, TypeScript, Node.js, Express 5, PostgreSQL, Socket.IO, Tailwind CSS, Vite
@@ -68,7 +66,7 @@ A real-time computer vision surveillance system designed for jewelry store secur
 Python, OpenCV, YOLOv8, TensorFlow/Keras, NumPy, Computer Vision
 
 **Project in one sentence:**  
-A real-time computer vision security system that detects people, face coverings, and suspicious movement near jewelry display cases.
+A real-time computer vision surveillance system that combines YOLOv8 person detection and deep learning-based face-covering classification for jewelry store security.
 
 ---
 
