@@ -152,10 +152,10 @@ A full-stack student support chatbot that helps students navigate university ser
 Python, JavaScript, TypeScript, C/C++, SQL, HTML, CSS
 
 **Machine Learning & AI**  
-PyTorch, TensorFlow, Scikit-learn, NumPy, Pandas, Matplotlib, Reinforcement Learning, Computer Vision
+PyTorch, TensorFlow, Scikit-learn, NumPy, Pandas, Matplotlib, Computer Vision
 
 **Frameworks & Libraries**  
-React, React Native, Node.js, Express.js, OpenCV, VTK
+React, React Native, Next.js, Node.js, Express.js, Tailwind CSS, Vite, OpenCV, VTK
 
 **Tools & Technologies**  
 Git, GitHub, Docker, PostgreSQL, MySQL, Google Cloud Platform, Plus Toolkit, 3D Slicer, VS Code, Linux, REST APIs
